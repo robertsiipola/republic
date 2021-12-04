@@ -12,6 +12,7 @@ httpx = "^0.21.1"
 pytest = "^5.2"
 black = "^21.11b1"
 pre-commit = "^2.16.0"
+mypy = "^0.910"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
