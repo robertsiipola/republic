@@ -11,6 +11,14 @@ repos:
     hooks:
       - id: isort
         name: isort (python)
+-   repo: https://github.com/myint/autoflake
+    rev: v1.4
+    hooks:
+      - id: autoflake
+        args:
+          - --in-place
+          - --remove-unused-variables
+          - --remove-all-unused-imports
 -   repo: https://github.com/psf/black
     rev: 19.3b0
     hooks:
