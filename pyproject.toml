@@ -7,6 +7,7 @@ authors = ["robertsiipola <robert@three.consulting>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 httpx = "^0.21.1"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
